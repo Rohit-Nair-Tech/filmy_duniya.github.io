@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- <link rel="stylesheet" href="db.css"> -->
+   
+    <title>Movie App</title>
+</head>
+<body>
+    
+    <header>
+        <form  id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+    
+    </header>
+
+   
+        <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      
+      <header>MOVIES MENU</header>
+      <a href="#" class="active">
+        <i class="bx bxs-user"></i>
+        <span>Login/Signup</span>
+      </a>
+      <a href='Recommendation.html'>
+        <i class="bx bx-registered"></i>
+        <span>Reccomender</span>
+      </a>
+      <a href="#">
+        <i class="bx bxs-phone-call"></i>
+        <span>Contact Us</span>
+      </a>
+      
+      <a href="#">
+        <i class="far fa-question-circle"></i>
+        <span>About Project</span>
+      </a>
+      
+    </div>
+
+    
+    <div id="tags"></div>
+    
+    <main id="main"></main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
